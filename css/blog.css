@@ -1,0 +1,136 @@
+body {
+  background-color: #000000;
+  background-image: linear-gradient(225deg, #000000 0%, #6b6b6b 50%, #1d1b1b 100%);
+}
+.blog .section_blog {
+  padding: 90px;
+}
+
+.blog .section_blog .head_blog {
+  font-weight: 700;
+  font-size: 80px;
+  text-align: center;
+  text-shadow: rgb(0 0 0 / 40%) 0.03em 0.03em 0;
+  color: #FFA700;
+  text-transform: uppercase;
+}
+
+.section_content {
+  padding: 0px;
+}
+
+.section_content .search {
+  padding: 0.715em;
+  margin: 0;
+  font-size: 14px;
+  line-height: normal !important;
+  color: #666;
+  display: block;
+  width: 100%;
+  outline: none;
+}
+
+.section_content .no_gutter {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.section_content .submit {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin: 0;
+  font-size: 14px;
+  line-height: normal !important;
+  border: none;
+  color: #666;
+  /* height: 48px; */
+  margin-left: -10px;
+  border-radius: 2px 2px 2px 2px;
+  background-color: #ddd;
+  display: block;
+  width: 100%;
+}
+
+.section_content .blog_cards .card h5 {
+  color: #333333;
+  font-weight: 700;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+}
+
+.section_content .blog_cards .card  {
+  background-color: #000000;
+  background-image: linear-gradient(225deg, #000000 0%, #6b6b6b 50%, #1d1b1b 100%);
+}
+
+.section_content .blog_cards .card {
+  box-shadow: -3px -1px 4px -5px #666;
+}
+
+.section_content .blog_cards .card .card-body .card-title a {
+  color:#DAA520;
+  text-transform: uppercase;
+}
+.section_content .blog_cards .card .card-body {
+  text-align: center;
+}
+.section_content .blog_cards .card h5 a:hover {
+  color: #666666;
+}
+
+.section_content .blog_cards {
+  padding: 25px 0px;
+}
+
+.section_content .blog_cards .p5 {
+  height: 281px;
+}
+
+.section_content .blog_cards .card .p1 {
+  margin-top: 10px;
+}
+
+.section_content .pagination {
+  justify-content: center;
+  background-color: #000000;
+}
+
+
+.section_content .disclaimer {
+  border: 1px solid black;
+  width: 100%;
+  box-shadow: 7px 12px 14px -5px #666;
+  border-radius: 10px 10px 10px 10px;
+  background-color: #000;
+}
+
+.section_content .disclaimer p {
+  padding: 20px;
+  font-size: 18px;
+  color: #333333;
+  color: #fff;
+}
+
+.section_content .disclaimer p strong {
+  font-weight: 700;
+  color: #DAA520;
+  font-size: 22px;
+}
+
+/* media */
+@media screen and (max-width: 1199px) {
+  .section_content .blog_cards .card h5 {
+    font-size: 18px;
+  }
+
+  .section_content .blog_cards .card {
+    height: 280px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .resp {
+    display: block;
+    width: 100%;
+  }
+}
